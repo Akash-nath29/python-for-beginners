@@ -263,4 +263,4 @@ b = 2
 c = a >> b #Bitwise right shift of a by b places
 print(c) #Output: 2
 
-# That's all for the operators in python programming. In the next file, we will cover the basics of stringss in python.
+# That's all for the operators in python programming. In the next file, we will cover the basics of strings in python. (strings.py)

@@ -31,4 +31,4 @@ This is a multi line comment.
 
 # Note: Comments are not executed by the interpreter. They are used to describe the code. They are used to make the code more readable and understandable.
 
-# That's all for the basics of python programming. In the next file, we will cover the variables in python.
+# That's all for the basics of python programming. In the next file, we will cover the variables in python. (variables.py)

@@ -164,4 +164,4 @@ b = 20
 print(b) #Output: 20
 
 
-# That's all for the variables in python. In the next file, we will cover the operators in python.
+# That's all for the variables in python. In the next file, we will cover the operators in python. (operators.py)
