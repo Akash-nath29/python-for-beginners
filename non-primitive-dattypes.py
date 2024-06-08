@@ -2,6 +2,7 @@
 # 1. List
 # 2. Dictionary
 # 3. Tuple
+# 4. Set
 
 # 1. List:
 # A list is a collection of items that are ordered and changeable. Lists are defined using square brackets([]). The items in a list are separated by commas. Lists can contain items of different data types. Lists are mutable, which means the items in a list can be changed.
@@ -99,3 +100,73 @@ print(person) #Output: {'name': 'John', 'city': 'New York'}
 # g. copy(): Returns a copy of the dictionary.
 
 # We will cover dictionary methods in upcoming files. (dictionary-methods.py)
+
+# 3. Tuple:
+# A tuple is a collection of items that are ordered and unchangeable. Tuples are defined using parentheses(()). The items in a tuple are separated by commas. Tuples can contain items of different data types. Tuples are immutable, which means the items in a tuple cannot be changed. Tuples are faster than lists.
+
+# Creating a tuple:
+# Tuples can be created by specifying the items inside parentheses.
+# Eg:
+fruits = ("apple", "banana", "cherry", "orange")
+print(fruits) #Output: ('apple', 'banana', 'cherry', 'orange')
+
+# Accessing items in a tuple:
+# Items in a tuple can be accessed using their index. The index of the items in a tuple starts from 0. We can access an item in a tuple using its index inside square brackets([]).
+# Eg:
+fruits = ("apple", "banana", "cherry", "orange")
+print(fruits[0]) #Output: apple
+print(fruits[1]) #Output: banana
+
+# Changing items in a tuple:
+# Items in a tuple cannot be changed as tuples are immutable. If we try to change an item in a tuple, a TypeError is raised.
+# Eg:
+fruits = ("apple", "banana", "cherry", "orange")
+fruits[1] = "mango" #TypeError: 'tuple' object does not support item assignment
+
+# Tuple methods:
+# Python provides two built-in methods to work with tuples. These methods are:
+# a. count(): Returns the number of times the specified item appears in the tuple.
+# b. index(): Returns the index of the specified item in the tuple.
+
+# We will cover tuple methods in upcoming files. (tuple-methods.py)
+
+# 4. Set:
+# A set is a collection of items that are unordered and unindexed. Sets are defined using curly braces({}). The items in a set are separated by commas. Sets can contain items of different data types. Sets are mutable, which means the items in a set can be changed. Sets do not allow duplicate items. Sets are faster than lists. Sets are used to perform mathematical set operations like union, intersection, difference, etc. on the items. 
+# Eg:
+fruits = {"apple", "banana", "cherry", "orange"}
+print(fruits) #Output: {'apple', 'banana', 'cherry', 'orange'}
+
+# Accessing items in a set:
+# Items in a set cannot be accessed using their index as sets are unordered. We can loop through the items in a set using a for loop.
+
+# Changing items in a set:
+# Items in a set can be changed by adding or removing items from the set.
+
+# Adding items to a set:
+# Items can be added to a set using the add() method. The add() method adds the item to the set.
+# Eg:
+fruits = {"apple", "banana", "cherry", "orange"}
+fruits.add("mango")
+print(fruits) #Output: {'apple', 'banana', 'cherry', 'orange', 'mango'}
+
+# Removing items from a set:
+# Items can be removed from a set using the remove() method. The remove() method removes the specified item from the set.
+# Eg:
+fruits = {"apple", "banana", "cherry", "orange"}
+fruits.remove("banana")
+print(fruits) #Output: {'apple', 'cherry', 'orange'}
+
+# Set methods:
+# Python provides several built-in methods to work with sets. Some of the commonly used set methods are:
+# a. add(): Adds an item to the set.
+# b. remove(): Removes the specified item from the set.
+# c. clear(): Removes all the items from the set.
+# d. union(): Returns a set containing the union of two sets.
+# e. intersection(): Returns a set containing the intersection of two sets.
+# f. difference(): Returns a set containing the difference between two sets.
+# g. symmetric_difference(): Returns a set containing the symmetric difference between two sets.
+# h. issubset(): Returns True if all items in the set are present in another set.
+# i. issuperset(): Returns True if all items in another set are present in the set.
+# j. copy(): Returns a copy of the set.
+
+# We will cover set methods in upcoming files. (set-methods.py)
